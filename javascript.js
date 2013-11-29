@@ -1,5 +1,5 @@
 $(function() {
-	//Currently selected language
+	//Currently selected script/code type
 	var lang = "";
 	
 	/*
