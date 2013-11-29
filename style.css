@@ -1,0 +1,61 @@
+ul, ol, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.codeviewer {
+	font-family: arial;
+	width: 440px;
+	margin-bottom: 20px;
+	background: rgba(0,0,0,0.1);
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	white-space: pre;
+	line-height: 24px;
+}
+
+.codeviewer-header {
+	font-size: 12px;
+	padding: 7px;
+	background: black;
+}
+.codeviewer-header ul {
+	overflow: auto;
+}
+.codeviewer-header li {
+	float: left;
+	color: white;
+	padding-right: 30px;
+	cursor: pointer;
+}
+
+.codeviewer-body {
+	font-size: 14px;
+	min-height: 120px;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+.codeviewer-no {
+	float: left;
+	color: white;
+	width: 30px;
+	background: rgba(0,0,0, 0.6);
+}
+
+.codeviewer-no p {
+	color: silver;
+	padding-left: 5px;
+}
+
+.codeviewer-code {
+	margin-left: 30px;
+}
+
+.codeviewer-code p {
+	padding-left: 8px;
+}
