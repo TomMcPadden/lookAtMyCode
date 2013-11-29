@@ -1,6 +1,6 @@
 <?
 
-//Call external file/class
+//Call external file/class 
 require 'lookAtMyCode.php';
 
 //Create object from class
