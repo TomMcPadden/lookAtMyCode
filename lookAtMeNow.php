@@ -17,7 +17,7 @@ class lookAtMyCode {
 		Sets the contents when the object is defined (optional)
 	*/
 	function __construct($file = NULL) {
-		if (!is_null($file) && is_array($file)) {
+		if (!is_null($file)) {
 			set($file);
 		}
 	}
