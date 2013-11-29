@@ -6,7 +6,7 @@ ul, ol, li {
 
 .codeviewer {
 	font-family: arial;
-	width: 440px;
+	width: 600px;
 	margin-bottom: 20px;
 	background: rgba(0,0,0,0.1);
 }
@@ -35,7 +35,8 @@ p {
 
 .codeviewer-body {
 	font-size: 14px;
-	min-height: 120px;
+	min-height: 150px;
+	max-height: 500px;
 	overflow: auto;
 	margin-bottom: 10px;
 }
