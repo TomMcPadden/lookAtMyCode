@@ -20,7 +20,7 @@ $lamc = new lookAtMyCode();
 	<body>
 		<?
 		
-		//Compile and display the code box
+		//Compile and display the code box 
 		$lamc->compile(
 			array(
 				"codes/project1/html.html",
